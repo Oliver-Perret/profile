@@ -7,6 +7,35 @@ body{
   font-weight: 300;
 }
 
+#sidebar {
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #0B3142;
+}
+#page-content {
+  margin-left: 250px;
+}
+
+#sidebar ul {
+  list-style-type: none;
+  margin-top: 100px;
+}
+
+#sidebar li {
+
+  padding: 20px 0px 40px 0px;
+}
+#sidebar a {
+  color: white;
+}
+
+#sidebar a:hover {
+  color: #DD403A;
+}
+
 @media (max-width: 1960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
